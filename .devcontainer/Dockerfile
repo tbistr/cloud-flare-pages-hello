@@ -7,5 +7,4 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN curl -fL "https://nodejs.org/dist/${NODE_VERSION}/node-${NODE_VERSION}-linux-${TARGETARCH}.tar.gz" \
     | tar -C /usr/local -xz --strip-components=1
 
-RUN npm install -g yarn
-RUN yarn global add @biomejs/biome
+RUN npm install -g @biomejs/biome

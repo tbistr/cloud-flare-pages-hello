@@ -7,8 +7,8 @@
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "biome check --write .",
-		"preview": "yarn build && wrangler pages dev ./dist",
-		"deploy": "yarn build && wrangler pages deploy ./dist"
+		"preview": "npm run build && wrangler pages dev ./dist",
+		"deploy": "npm run build && wrangler pages deploy ./dist"
 	},
 	"dependencies": {
 		"hono": "^4.6.9",
