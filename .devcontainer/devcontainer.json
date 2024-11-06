@@ -5,7 +5,7 @@
 	},
 	"customizations": {
 		"vscode": {
-			"extensions": []
+			"extensions": ["biomejs.biome"]
 		}
 	}
 }
